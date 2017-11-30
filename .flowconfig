@@ -1,0 +1,17 @@
+[ignore]
+.*/node_modules/.*
+
+[include]
+
+[libs]
+
+[options]
+module.name_mapper.extension='css' -> './flow/CSSModule.js.flow'
+module.name_mapper.extension='scss' -> './flow/CSSModule.js.flow'
+module.name_mapper.extension='png' -> './flow/WebpackAsset.js.flow'
+module.name_mapper.extension='svg' -> './flow/WebpackAsset.js.flow'
+module.name_mapper.extension='gif' -> './flow/WebpackAsset.js.flow'
+module.name_mapper.extension='jpg' -> './flow/WebpackAsset.js.flow'
+module.name_mapper.extension='jpeg' -> './flow/WebpackAsset.js.flow'
+
+esproposal.decorators=ignore

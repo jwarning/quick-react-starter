@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions"]
+        }
+      }
+    ],
+    "react",
+    "flow"
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/syntax-object-rest-spread"
+  ]
+}
