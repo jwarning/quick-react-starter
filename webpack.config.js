@@ -77,7 +77,7 @@ const cssLoaders = modules => [
 ]
 
 const config = {
-  entry: ['babel-polyfill', PATHS.index],
+  entry: ['@babel/polyfill', PATHS.index],
   output: {
     path: PATHS.build,
     filename: `${packageName || projectPackageJSON.name || 'bundle'}.js`,
